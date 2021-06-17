@@ -18,7 +18,7 @@ ul {
 }
 
 #container{
-	width:800px;
+	width:100%;
 	margin-left: auto;
 	margin-right: auto;
 } 
@@ -34,12 +34,12 @@ ul {
 } 
 
 #nav{
-	width:180px;
+	width:25%;
 	float:left;
 }
 
 #main{
-	width:600px;
+	width:75%;
 	float:right;
 }
 
