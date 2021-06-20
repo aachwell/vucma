@@ -1,0 +1,30 @@
+@media (max-width: 767px) {
+	h1{
+		color:white;
+	}
+}
+
+.title{
+	font-family: "Comic Sans MS";
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	background: grey;
+	left:0;
+}
+
+.title h1 {
+	margin-top:0;
+}
+
+@media (min-width: 768px) {
+	h1{
+		color:red;
+	}
+}
+
+.dropdown a, .nodrop a{
+	color:grey;
+	float:left;
+	padding-right:15px;
+}
