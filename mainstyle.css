@@ -20,11 +20,41 @@
 @media (min-width: 768px) {
 	h1{
 		color:red;
+		margin:0px;
+	}
+	.container{
+		width:900px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	#construction{
+		width:600px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.dropdown{
+		position:relative;
+	}
+	.dropdown a, .nodrop a{
+		background: #666666;
+		color: white;
+		text-decoration:none;
+		padding:10px;
+		float:left;
+		margin-bottom:30px;
+		font-family:sans-serif;
+	}
+	.dropdown ul{
+		position:absolute;
+		float:left;
+		margin:none;
+		padding:0px;
+		left:30px;
+		top:0px;
 	}
 }
 
-.dropdown a, .nodrop a{
-	color:grey;
-	float:left;
-	padding-right:15px;
+.current{
+	font-weight:bold;
 }
+
