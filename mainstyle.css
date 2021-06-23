@@ -18,6 +18,10 @@
 	font-family: "Comic Sans", "Comic Sans MS", "Chalkboard", "ChalkboardSE-Regular", sans-serif;
 }
 
+ol li{
+	margin-bottom:10px;
+}
+
 @media (max-width: 767px) {
 	.title h1{
 		color:white;
