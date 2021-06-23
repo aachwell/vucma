@@ -18,6 +18,28 @@
 @media (max-width: 767px) {
 	h1{
 		color:white;
+		margin:0px;
+	}
+	.nodrop{
+		text-align:center;
+		
+	}
+	.navbar{
+		margin-top:2px;
+	}
+	.nodrop a{
+		padding-top:5px;
+		padding-bottom:5px;
+		background:orange;
+		color:white;
+		display:flex;
+		align-items:center;
+		border-style:solid;
+		border-color:white;
+		border-width:2px;
+		border-left-width:0px;
+		border-right-width:0px;
+		padding-left:20px;
 	}
 }
 
@@ -36,10 +58,10 @@
 		margin-left:auto;
 		margin-right:auto;
 	}
-	.dropdown, .nodrop{
+	.nodrop{
 		float:left;
 	}
-	.droplink, .nodrop a{
+	.nodrop a{
 		padding:10px;
 		background:blue;
 		color:white;
@@ -48,13 +70,13 @@
 		border-color:white;
 	}
 	.navbar{
-		margin-top:10px;
+		margin-top:11px;
+		margin-bottom:50px;
 	}
-	.dropdown ul{
-		list-style-type:none;
-		margin:0px;
-		padding:0px;
-		text-align:left;
+	.nodrop:hover a{
+		background:cyan;
+		color:black;
+		border-color:black;
 	}
 	
 }
@@ -62,4 +84,3 @@
 .current{
 	font-weight:bold;
 }
-
