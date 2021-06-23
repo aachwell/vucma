@@ -12,7 +12,7 @@
 }
 .nodrop a, .droplink{
 	text-decoration:none;
-	font-family:"Comic Sans MS","Chalkboard SE Regular",sans-serif;
+	font-family:"Comic Sans MS","Chalkboard SE Regular","Times New Roman",sans-serif;
 }
 
 @media (max-width: 767px) {
