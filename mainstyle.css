@@ -6,6 +6,9 @@
 	background: green;
 	left:0;
 }
+.brokenmessage{
+	display:none;
+}
 
 .title h1 {
 	margin-top:0;
@@ -80,6 +83,9 @@
 		background:cyan;
 		color:black;
 		border-color:black;
+	}
+	.brokenmessage{
+		display:block;
 	}
 	
 }
