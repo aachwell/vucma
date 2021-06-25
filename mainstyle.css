@@ -61,6 +61,11 @@ ol li{
 		color:red;
 		margin:0px;
 	}
+	img{
+		max-width:600px;
+		margin-right:auto;
+		margin-left:auto;
+	}
 	.container{
 		width:900px;
 		margin-left:auto;
